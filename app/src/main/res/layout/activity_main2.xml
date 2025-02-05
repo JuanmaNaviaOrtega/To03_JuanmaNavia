@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+tools:context=".ejercicio2.MainActivity2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Ingrese cantidad"
+        android:inputType="numberDecimal"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbDolarAEuro"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Dólar → Euro"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbEuroADolar"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Euro → Dólar"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btnConvertir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convertir"/>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Resultado"/>
+</LinearLayout>
