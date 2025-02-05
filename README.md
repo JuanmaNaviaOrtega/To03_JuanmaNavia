@@ -14,10 +14,10 @@ NetworkUtils-> Esta clase maneja la conexión a internet y la descarga del archi
 FileUtils-> Esta clase permite guardar y leer archivos.
 
 - Este ejercicio consta de un layout activity_main.xml que contiene:
-Un EditText-> para que el usuario pueda ingresar la URL 
-Un Button -> para que cuando el usuario lo pulse se inicie la descarga
-Una ImageView-> para mostrar la imagen cuando sea descargada
-Un TextView-> Para mosrtar el contenido de los archivos cuando sean descargado.
+- Un EditText-> para que el usuario pueda ingresar la URL 
+- Un Button -> para que cuando el usuario lo pulse se inicie la descarga
+- Una ImageView-> para mostrar la imagen cuando sea descargada
+- Un TextView-> Para mosrtar el contenido de los archivos cuando sean descargado.
 
 
 #EJERCICIO2  
