@@ -9,15 +9,15 @@
 
 - Este ejercicio consta de varias clases:
 MainActivity-> Desde esta clase manejamos la interaccion del usuario y mostraremos los resultados.
-DowloadFileTask-> Esta clase se encarga de descargar el archivo/imagen en segundo plano usando AsyncTask
-NetworkUtils-> Esta clase maneja la conexión a internet y la descarga del archivo
+DowloadFileTask-> Esta clase se encarga de descargar el archivo/imagen en segundo plano usando AsyncTask.
+NetworkUtils-> Esta clase maneja la conexión a internet y la descarga del archivo.
 FileUtils-> Esta clase permite guardar y leer archivos.
 
 - Este ejercicio consta de un layout activity_main.xml que contiene:
-- Un EditText-> para que el usuario pueda ingresar la URL 
-- Un Button -> para que cuando el usuario lo pulse se inicie la descarga
-- Una ImageView-> para mostrar la imagen cuando sea descargada
-- Un TextView-> Para mosrtar el contenido de los archivos cuando sean descargado.
+Un EditText-> para que el usuario pueda ingresar la URL. 
+ Un Button -> para que cuando el usuario lo pulse se inicie la descarga.
+ Una ImageView-> para mostrar la imagen cuando sea descargada.
+ Un TextView-> Para mosrtar el contenido de los archivos cuando sean descargado.
 
 
 #EJERCICIO2  
@@ -29,9 +29,9 @@ Este Ejercicio consta de:
 - Una clase MainActivity2->
 Que contiene las funcion necesaria para descargar la tasa del cambio a traves de la URL, tambien para manejar la interacción del usuario y mostrar resultados
 - Un layout activity_main2 que contiene:
-Un EditText: para ingresar la cantidad de €/$ de la que se hará la conversión
-Dos RadioButton: para indiciar si la conversion se hará de euros -> dolares o de dolares -> euros
-Un Button: para que se realice la conversion dependiendo del radioButton que se haya escogido
+Un EditText: para ingresar la cantidad de €/$ de la que se hará la conversión.
+Dos RadioButton: para indiciar si la conversion se hará de euros -> dolares o de dolares -> euros.
+Un Button: para que se realice la conversion dependiendo del radioButton que se haya escogido.
 Un Textview: Para mostrar el resultado de la conversion.
 - Un archivo cambio.txt-> En este archivo se especifica el cambio del valor para la conversion
 
