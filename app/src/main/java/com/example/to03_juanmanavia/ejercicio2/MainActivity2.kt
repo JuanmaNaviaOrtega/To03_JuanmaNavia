@@ -10,7 +10,7 @@ import okhttp3.*
 import java.io.IOException
 
 class MainActivity2 : AppCompatActivity() {
-    private val URL_CAMBIO = "https://github.com/JuanmaNaviaOrtega/To03_JuanmaNavia/blob/master/app/src/main/java/com/example/to03_juanmanavia/ejercicio2/cambio.txt"
+    private val URL_CAMBIO = "https://raw.githubusercontent.com/JuanmaNaviaOrtega/To03_JuanmaNavia/master/app/src/main/java/com/example/to03_juanmanavia/ejercicio2/cambio.txt"
     private val client = OkHttpClient()
     private var tasaCambio: Double = 1.0
 
