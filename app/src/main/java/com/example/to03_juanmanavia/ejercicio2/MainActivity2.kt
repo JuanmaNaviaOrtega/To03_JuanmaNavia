@@ -19,6 +19,7 @@ class MainActivity2 : AppCompatActivity() {
     private lateinit var rbEuroADolar: RadioButton
     private lateinit var txtResultado: TextView
     private lateinit var btnConvertir: Button
+    private  lateinit var txtTasaCambio : TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,6 +31,7 @@ class MainActivity2 : AppCompatActivity() {
         rbEuroADolar = findViewById(R.id.rbEuroADolar)
         txtResultado = findViewById(R.id.txtResultado)
         btnConvertir = findViewById(R.id.btnConvertir)
+        txtTasaCambio = findViewById(R.id.txtTasaCambio)
 
         // Descargar la tasa de cambio al iniciar la app
         descargarTasaDeCambio()
@@ -79,6 +81,7 @@ class MainActivity2 : AppCompatActivity() {
                 try {
                     tasaCambio = body?.toDouble() ?: 1.0
                     runOnUiThread {
+                        txtTasaCambio.text = "%.2f".format(tasaCambio)
                         Toast.makeText(this@MainActivity2, "Tasa de cambio actualizada: $tasaCambio", Toast.LENGTH_SHORT).show()
                     }
                 } catch (e: NumberFormatException) {
