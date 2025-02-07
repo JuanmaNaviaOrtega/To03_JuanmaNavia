@@ -18,7 +18,9 @@ Un EditText-> para que el usuario pueda ingresar la URL.
  Un Button -> para que cuando el usuario lo pulse se inicie la descarga.
  Una ImageView-> para mostrar la imagen cuando sea descargada.
  Un TextView-> Para mosrtar el contenido de los archivos cuando sean descargado.
+Un textView -> Para mostrar el tiempo de descarga.
 
+<img width="500" height="550" alt="Captura" src="https://github.com/user-attachments/assets/ce5a6715-651a-42f6-8418-18be06203764" />
 
 #EJERCICIO2  
 - Esta aplicación  es un conversor de moneda que descargará la tasa de cambio Dólar → Euro desde un archivo alojado en mi pagina web GitHub y permite realizar conversiones en ambas direcciones.  
@@ -29,11 +31,14 @@ Este Ejercicio consta de:
 - Una clase MainActivity2->
 Que contiene las funcion necesaria para descargar la tasa del cambio a traves de la URL, tambien para manejar la interacción del usuario y mostrar resultados
 - Un layout activity_main2 que contiene:
+Un TextView:Para mostrar el valor de la tasa de cambio.
 Un EditText: para ingresar la cantidad de €/$ de la que se hará la conversión.
 Dos RadioButton: para indiciar si la conversion se hará de euros -> dolares o de dolares -> euros.
 Un Button: para que se realice la conversion dependiendo del radioButton que se haya escogido.
 Un Textview: Para mostrar el resultado de la conversion.
-- Un archivo cambio.txt-> En este archivo se especifica el cambio del valor para la conversion
+- Un archivo cambio.txt-> En este archivo se especifica el cambio del valor para la conversion.
+  
 
 
+<img width="500" height="550"  alt="Captura1" src="https://github.com/user-attachments/assets/8c8c68f2-4adb-49ea-b26e-107d5c72155a" />
 
